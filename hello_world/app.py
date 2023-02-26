@@ -1,5 +1,5 @@
-from hello_world.hello import say_hello
+from hello_world.hello import hello
 
 def run():
-    print(say_hello("world"))
+    print(hello.say_hello("world"))
     
